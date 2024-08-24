@@ -20,6 +20,6 @@ export default {
       zinc950: '#09090b',
       violet800: '#5b21b6',
     },
-  },
   plugins: [],
+}
 }
