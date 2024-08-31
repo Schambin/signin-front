@@ -1,7 +1,7 @@
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Register } from './pages/register';
 import { Login } from './pages/login';
-import { ListUsers } from './pages/user-list';
+import { UsersList } from './pages/user-list';
 
 export function App() {
 
@@ -10,7 +10,7 @@ export function App() {
       <Routes>
         <Route path="/register" element={<Register />} />
         <Route path="/" element={<Login />} />
-        <Route path="/p/list-users" element={<ListUsers />} />
+        <Route path="/p/list-users" element={<UsersList />} />
       </Routes>
     </BrowserRouter>
   )
